@@ -1,0 +1,14 @@
+PODS:
+  - QZLocationUpdater (0.1.0)
+
+DEPENDENCIES:
+  - QZLocationUpdater (from `../`)
+
+EXTERNAL SOURCES:
+  QZLocationUpdater:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QZLocationUpdater: fffd39f2889fac8e3503fee32f1fe19b05011980
+
+COCOAPODS: 0.33.1

@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288C33C3F1F04484A0875890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C9A0C1C8BB4821BC1C91B6 /* Foundation.framework */; };
+		2C5F2D45A72948038D5D4155 /* libPods-QZLocationUpdaterExample-QZLocationUpdater.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E37CFC9D74D00AB52B434 /* libPods-QZLocationUpdaterExample-QZLocationUpdater.a */; };
+		4D6CD00319889BAC006AFAA1 /* QZLocationUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CD00219889BAC006AFAA1 /* QZLocationUpdater.m */; };
+		80E48D579C084EA19D0FDA0C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982A07E5DC9A40B0906ED358 /* CoreLocation.framework */; };
+		8A95198E03E54A62BB3A5E98 /* Pods-QZLocationUpdaterExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F549F0F10F70436FA188AA26 /* Pods-QZLocationUpdaterExample-dummy.m */; };
+		92060385727E4A319D7AF601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C9A0C1C8BB4821BC1C91B6 /* Foundation.framework */; };
+		C3F0A156A7024CB99C9D60CC /* Pods-QZLocationUpdaterExample-QZLocationUpdater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A130A52194AA796651037 /* Pods-QZLocationUpdaterExample-QZLocationUpdater-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46C55AD25A5540708460B01B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6560AADA11E44F0EAA58844A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5C0913FB1E48FA92DA8426;
+			remoteInfo = "Pods-QZLocationUpdaterExample-QZLocationUpdater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E9C0F35BAB41F8B7AD1B9D /* Pods-QZLocationUpdaterExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZLocationUpdaterExample.xcconfig"; sourceTree = "<group>"; };
+		440D2274960D44E6ACD426C7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D6CD00119889BAC006AFAA1 /* QZLocationUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QZLocationUpdater.h; path = Classes/QZLocationUpdater.h; sourceTree = "<group>"; };
+		4D6CD00219889BAC006AFAA1 /* QZLocationUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QZLocationUpdater.m; path = Classes/QZLocationUpdater.m; sourceTree = "<group>"; };
+		558E37CFC9D74D00AB52B434 /* libPods-QZLocationUpdaterExample-QZLocationUpdater.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QZLocationUpdaterExample-QZLocationUpdater.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FA3C32F6224A70AC5E6C6F /* Pods-QZLocationUpdaterExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZLocationUpdaterExample-resources.sh"; sourceTree = "<group>"; };
+		624D4F8D07CF4F569E5E5EC6 /* Pods-QZLocationUpdaterExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZLocationUpdaterExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F049BCE134D476FB65ECF4F /* Pods-QZLocationUpdaterExample-QZLocationUpdater-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZLocationUpdaterExample-QZLocationUpdater-prefix.pch"; sourceTree = "<group>"; };
+		87C9A0C1C8BB4821BC1C91B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8EA6FF62E98B4341800A4C4F /* Pods-QZLocationUpdaterExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZLocationUpdaterExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		982A07E5DC9A40B0906ED358 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		B3BE0189C55F4400B194FBBD /* Pods-QZLocationUpdaterExample-QZLocationUpdater-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZLocationUpdaterExample-QZLocationUpdater-Private.xcconfig"; sourceTree = "<group>"; };
+		BA62CE09C6DB4815BF202907 /* libPods-QZLocationUpdaterExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QZLocationUpdaterExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC16B0E6221D4BA69557BF84 /* Pods-QZLocationUpdaterExample-QZLocationUpdater.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZLocationUpdaterExample-QZLocationUpdater.xcconfig"; sourceTree = "<group>"; };
+		C64A130A52194AA796651037 /* Pods-QZLocationUpdaterExample-QZLocationUpdater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZLocationUpdaterExample-QZLocationUpdater-dummy.m"; sourceTree = "<group>"; };
+		E5E448B2F1A54D34BF9D6CB5 /* Pods-QZLocationUpdaterExample-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZLocationUpdaterExample-environment.h"; sourceTree = "<group>"; };
+		F549F0F10F70436FA188AA26 /* Pods-QZLocationUpdaterExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZLocationUpdaterExample-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFD58A41EEB4F03B57E55B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E48D579C084EA19D0FDA0C /* CoreLocation.framework in Frameworks */,
+				92060385727E4A319D7AF601 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A6838F0D4946AD9E3D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288C33C3F1F04484A0875890 /* Foundation.framework in Frameworks */,
+				2C5F2D45A72948038D5D4155 /* libPods-QZLocationUpdaterExample-QZLocationUpdater.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0723DA26BDAB4EF49DEDFBF4 /* QZLocationUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				B8676858D807458E85181DA9 /* Support Files */,
+				4D6CD00119889BAC006AFAA1 /* QZLocationUpdater.h */,
+				4D6CD00219889BAC006AFAA1 /* QZLocationUpdater.m */,
+			);
+			name = QZLocationUpdater;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		454EC2DE26C1435BAA83D9E5 = {
+			isa = PBXGroup;
+			children = (
+				440D2274960D44E6ACD426C7 /* Podfile */,
+				A59F6E9C149A46B68998F678 /* Development Pods */,
+				8180C04ED07F4CA4BEB8F261 /* Frameworks */,
+				567E5E6B0D59477EA33CFBCF /* Products */,
+				B88BF75F71194221B4BB0EB2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		567E5E6B0D59477EA33CFBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA62CE09C6DB4815BF202907 /* libPods-QZLocationUpdaterExample.a */,
+				558E37CFC9D74D00AB52B434 /* libPods-QZLocationUpdaterExample-QZLocationUpdater.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8180C04ED07F4CA4BEB8F261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFCAC1D424240C0B242F5CB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DFCAC1D424240C0B242F5CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				982A07E5DC9A40B0906ED358 /* CoreLocation.framework */,
+				87C9A0C1C8BB4821BC1C91B6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A59F6E9C149A46B68998F678 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0723DA26BDAB4EF49DEDFBF4 /* QZLocationUpdater */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B8676858D807458E85181DA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC16B0E6221D4BA69557BF84 /* Pods-QZLocationUpdaterExample-QZLocationUpdater.xcconfig */,
+				B3BE0189C55F4400B194FBBD /* Pods-QZLocationUpdaterExample-QZLocationUpdater-Private.xcconfig */,
+				C64A130A52194AA796651037 /* Pods-QZLocationUpdaterExample-QZLocationUpdater-dummy.m */,
+				7F049BCE134D476FB65ECF4F /* Pods-QZLocationUpdaterExample-QZLocationUpdater-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		B88BF75F71194221B4BB0EB2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59B7FDB38354455B695A88B /* Pods-QZLocationUpdaterExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F59B7FDB38354455B695A88B /* Pods-QZLocationUpdaterExample */ = {
+			isa = PBXGroup;
+			children = (
+				16E9C0F35BAB41F8B7AD1B9D /* Pods-QZLocationUpdaterExample.xcconfig */,
+				624D4F8D07CF4F569E5E5EC6 /* Pods-QZLocationUpdaterExample-acknowledgements.markdown */,
+				8EA6FF62E98B4341800A4C4F /* Pods-QZLocationUpdaterExample-acknowledgements.plist */,
+				F549F0F10F70436FA188AA26 /* Pods-QZLocationUpdaterExample-dummy.m */,
+				E5E448B2F1A54D34BF9D6CB5 /* Pods-QZLocationUpdaterExample-environment.h */,
+				58FA3C32F6224A70AC5E6C6F /* Pods-QZLocationUpdaterExample-resources.sh */,
+			);
+			name = "Pods-QZLocationUpdaterExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C41671DE55483493BD22DA /* Pods-QZLocationUpdaterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8C53D503224149B4BCE451 /* Build configuration list for PBXNativeTarget "Pods-QZLocationUpdaterExample" */;
+			buildPhases = (
+				5EEAE8B5F2E446AF8EA22DE6 /* Sources */,
+				4B40A6838F0D4946AD9E3D89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A6A4D8B90640BE808EFD19 /* PBXTargetDependency */,
+			);
+			name = "Pods-QZLocationUpdaterExample";
+			productName = "Pods-QZLocationUpdaterExample";
+			productReference = BA62CE09C6DB4815BF202907 /* libPods-QZLocationUpdaterExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7F5C0913FB1E48FA92DA8426 /* Pods-QZLocationUpdaterExample-QZLocationUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1A425733BB4CB4A1D70E41 /* Build configuration list for PBXNativeTarget "Pods-QZLocationUpdaterExample-QZLocationUpdater" */;
+			buildPhases = (
+				4BDB93BC1B684346B4A5B859 /* Sources */,
+				2DFD58A41EEB4F03B57E55B3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QZLocationUpdaterExample-QZLocationUpdater";
+			productName = "Pods-QZLocationUpdaterExample-QZLocationUpdater";
+			productReference = 558E37CFC9D74D00AB52B434 /* libPods-QZLocationUpdaterExample-QZLocationUpdater.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6560AADA11E44F0EAA58844A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 84125AC65915423EA8FF6C9C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 454EC2DE26C1435BAA83D9E5;
+			productRefGroup = 567E5E6B0D59477EA33CFBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C41671DE55483493BD22DA /* Pods-QZLocationUpdaterExample */,
+				7F5C0913FB1E48FA92DA8426 /* Pods-QZLocationUpdaterExample-QZLocationUpdater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BDB93BC1B684346B4A5B859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F0A156A7024CB99C9D60CC /* Pods-QZLocationUpdaterExample-QZLocationUpdater-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEAE8B5F2E446AF8EA22DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A95198E03E54A62BB3A5E98 /* Pods-QZLocationUpdaterExample-dummy.m in Sources */,
+				4D6CD00319889BAC006AFAA1 /* QZLocationUpdater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A6A4D8B90640BE808EFD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F5C0913FB1E48FA92DA8426 /* Pods-QZLocationUpdaterExample-QZLocationUpdater */;
+			targetProxy = 46C55AD25A5540708460B01B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A16A964E6CE4CB686C7F59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C615B4237FF44659C961F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		70ED4DF3CF4B4629A59E946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E9C0F35BAB41F8B7AD1B9D /* Pods-QZLocationUpdaterExample.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9EDE9A61B1E94E9383BE1105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BE0189C55F4400B194FBBD /* Pods-QZLocationUpdaterExample-QZLocationUpdater-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-QZLocationUpdaterExample-QZLocationUpdater-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4068100F70F4BBEB799C615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BE0189C55F4400B194FBBD /* Pods-QZLocationUpdaterExample-QZLocationUpdater-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-QZLocationUpdaterExample-QZLocationUpdater-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB3536FB38DC4750A4788547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E9C0F35BAB41F8B7AD1B9D /* Pods-QZLocationUpdaterExample.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1A425733BB4CB4A1D70E41 /* Build configuration list for PBXNativeTarget "Pods-QZLocationUpdaterExample-QZLocationUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4068100F70F4BBEB799C615 /* Debug */,
+				9EDE9A61B1E94E9383BE1105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8C53D503224149B4BCE451 /* Build configuration list for PBXNativeTarget "Pods-QZLocationUpdaterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ED4DF3CF4B4629A59E946E /* Debug */,
+				FB3536FB38DC4750A4788547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84125AC65915423EA8FF6C9C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C615B4237FF44659C961F1A /* Debug */,
+				1A16A964E6CE4CB686C7F59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6560AADA11E44F0EAA58844A /* Project object */;
+}

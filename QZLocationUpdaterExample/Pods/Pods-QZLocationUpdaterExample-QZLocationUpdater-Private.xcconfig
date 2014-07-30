@@ -1,0 +1,5 @@
+#include "Pods-QZLocationUpdaterExample-QZLocationUpdater.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/QZLocationUpdater" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/QZLocationUpdater"
+OTHER_LDFLAGS = -ObjC ${PODS_QZLOCATIONUPDATEREXAMPLE_QZLOCATIONUPDATER_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
